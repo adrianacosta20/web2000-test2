@@ -1,0 +1,23 @@
+{
+  "name": "asteroid",
+  "version": "1.0.0",
+  "description": "asteroid game for final test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "Adrian Acosta",
+  "license": "ISC"
+}
